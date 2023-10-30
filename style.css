@@ -1,0 +1,104 @@
+ h1 {
+	 text-align: center;
+ }
+ 
+ body {
+	 background-color: #fe7f00;
+ }
+ 
+ .klasa1 {
+	 display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:21px;}
+  25%  {background-color:yellow; left:600px; top:1444px;}
+  50%  {background-color:blue; left:1200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+.klasa2 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 6s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:600px; top:0px;}
+  50%  {background-color:blue; left:1200px; top:144px;}
+  75%  {background-color:green; left:44px; top:200px;}
+  100% {background-color:red; left:0px; top:2px;}
+}
+.klasa3 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-delay: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:33px;}
+  25%  {background-color:yellow; left:6330px; top:0px;}
+  50%  {background-color:blue; left:13304px; top:7754px;}
+  75%  {background-color:green; left:0px; top:2666px;}
+  100% {background-color:red; left:0px; top:645px;}
+}
+
+.klasa4 {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:220px; top:555px;}
+  50%  {background-color:blue; left:200px; top:245px;}
+  75%  {background-color:green; left:124px; top:4545px;}
+  100% {background-color:red; left:55px; top:666px;}
+}
