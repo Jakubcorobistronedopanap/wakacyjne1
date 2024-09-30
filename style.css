@@ -1,4 +1,3 @@
-
 @keyframes obrót {
   from {
     transform: rotate(0deg);
@@ -9,7 +8,7 @@
 }
 
 .baner {
-	margin top: 400px;
+	margin-top: 400px;
 	width: 100%;
 	height: 60px;
 	border: dotted 10px;
